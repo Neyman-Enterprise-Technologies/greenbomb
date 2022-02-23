@@ -1,0 +1,35 @@
+ <div class="col-lg-12 mt-4" id="cards">
+                        <div class="product-wrap border rounded-6 ">
+                            <div class="row m-0">
+                                <div class="col col-xs-6 border-end p-0">
+                                    <div class="py-3 px-2 rounded-0 posr border-bottom">
+                                        <a href="#" class="wishlist-btn posa right-0 top-0 mt-3 me-3">
+                                            <i class='bx bx-heart' id="addFavorite"></i></a>
+                                        <div class="clearfix"></div>
+                                        <a href="#" class="d-block text-center" data-bs-toggle="modal"
+                                            data-bs-target="#productmodal"><img
+                                                src="https://picsum.photos/id/236/150/170" alt="product-image"
+                                                class="w-100 mt-2 mb-2 d-inline-block pt-0 border-3"></a>
+                                        <span class="ms-auto text-grey-500 fw-500 mt-1 font-xsssss">Pişik / Krakerslər /
+                                            Wishcard</span>
+                                        <div class="clearfix"></div>
+                                        <h2 class="mt-2"><a href="single-product-1.html"
+                                                class="text-grey-700 fw-600 font-xsss lh-22 d-block ls-0">Blue Diamond
+                                                Almonds Lightly Salted</a></h2>
+                                        <div class="cardFooter">
+                                            <button class="addToCart pt-4 pe-0">
+                                                <h6 class="font-xss ls-3 fw-700 text-current d-flex ">29.99 <span
+                                                        class="manat"> ₼ </span><span
+                                                        class="font-xsssss text-grey-500 text-decoration-line-through old-price">36.52</span>
+                                                </h6>
+                                            </button>
+                                            <button class="addToCart">
+                                                <i class="ti-shopping-cart mx-1"></i><span class="fw-500">Əlavə
+                                                    et</span>
+                                            </button>
+                                        </div>                                  
+                                    </div>
+                                </div>                             
+                            </div>
+                        </div>
+                    </div>
