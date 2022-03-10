@@ -1868,7 +1868,7 @@ progress {
     width: 20%;
   }
 
-  .row-cols-lg-6 > * {
+  .row-cols-lindex > * {
     flex: 0 0 auto;
     width: 16.6666666667%;
   }
@@ -2501,7 +2501,7 @@ progress {
     width: 41.66666667%;
   }
 
-  .col-lg-6 {
+  .col-lindex {
     flex: 0 0 auto;
     width: 50%;
   }
@@ -2560,7 +2560,7 @@ progress {
     margin-left: 41.66666667%;
   }
 
-  .offset-lg-6 {
+  .offset-lindex {
     margin-left: 50%;
   }
 
