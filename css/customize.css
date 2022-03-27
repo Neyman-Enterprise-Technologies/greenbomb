@@ -1,0 +1,102 @@
+/* for background picture size normalise */
+.banner-wrap .style3 {
+    padding-top: 11rem;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Green span of GreenBomb */
+.logo-name-span{
+    color:green;
+}
+
+/* head welcome text width */
+.welcome-info-text-box{
+    width: 73% !important; 
+}
+
+.welcome-head {
+    font-size: 87px !important;
+    font-weight: 300 !important;
+    color: #333 !important;
+    line-height: 94px !important;
+    margin-bottom: 15px !important;
+    display: inline-block !important;
+    text-align: center !important;
+    margin-left: -85px !important;
+}
+
+.project-head-info-text{
+    font-size: 24px !important;
+}
+
+.banner-wrap .style3 p {
+
+    font-size: 19px !important;
+
+}
+
+.back-image-size{
+    height: 36.2rem !important      ;
+}
+
+.logo-text-2{
+    font-size: 59px !important;
+    font-weight: 300 !important;
+    color: #333;
+    line-height: 75px !important;
+    margin-bottom: 15px;
+    background: #ffffff73;
+    display: inline-block;
+}
+
+.about-project-2{
+    color: #edf8eb !important;
+    text-shadow: 2px 1px black;
+}
+
+.p-2 {
+    min-height: 16rem;
+}
+
+.nav-logo-name{
+    font-size: 35px;
+    height: auto !important;
+    margin: auto !important;
+}
+
+.navbar-menu{
+    height: auto !important;
+    margin: auto !important;
+}
+
+.nav-logo-box{
+    margin: auto !important;
+}
+
+.logo-name-span-nav{
+    color:white;
+}
+
+.navbar-search-form{
+     display: inline-block !important;
+     margin: 6px !important;
+     margin-right: 23px !important;
+}
+
+.nav-search-input{
+    border: 0px;
+    border-radius: 36px;
+    line-height: 27px !important;
+    padding-left: 2rem !important;
+}
+.navbar-base{
+    display: block !important;
+    position: fixed !important;
+    width: 100% !important;
+    top: 0px !important;
+    /* background-color: #14830a ; */
+    background-color: transparent ;
+
+}

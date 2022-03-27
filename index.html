@@ -5,11 +5,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Orgomart - Grocery Store HTML Template</title>
+  <title>GreenBomb Layihəsi</title>
 
   <!-- Favicon icon -->
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/customize.css" />
+
   <link rel="stylesheet" href="./vendor/boxicons-2.0.9/css/boxicons.min.css" />
 </head>
 
@@ -27,24 +29,24 @@
             </button>
           </div>
           <div class="col text-center">
-            <a href="index.html"><img src="images/logo.png" alt="logo" class="logo w-100 pt-1" /></a>
+            <a href="index.html"><h1 class="nav-logo-name"><b><b class="logo-name-span-nav "></b>GreenBomb</b></h1></a>
           </div>
           <div class="col text-end">
             <a href="#" class="nav-icon mt-1 d-inline-block" data-bs-toggle="modal" data-bs-target="#cartmodal"><i
-                class="feather-shopping-cart text-grey-500 font-xl"></i></a>
+                class="feather-shopping-cart text-white font-xl"></i></a>
           </div>
         </div>
       </div>
     </div>
 
-   
-    <div class="lower-header pt-0 pb-0 shadow-xss z-index-1 bg-invert bg-deepgreen d-none d-lg-block">
+
+    <div id="navbar-item" class="lower-header pt-0 pb-0 shadow-xss z-index-1 bg-invert bg-deepgreen d-none d-lg-block navbar-base">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-2 pe-0">
-            <a href="index.html"><img src="images/logo.png" alt="logo" class="logo w-100" /></a>
+          <div class="col-lg-2 pe-0 nav-logo-box">
+            <a href="index.html"><h1 class="nav-logo-name"><b><b class="logo-name-span-nav">Green</b>Bomb</b></h1></a>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 navbar-menu">
             <div class="navbar navbar-expand-lg p-0">
               <div class="navbar-collapse collapse show" id="main_nav">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
@@ -77,15 +79,15 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <form action="" method="post">
+            <form action="" method="post" class="navbar-search-form">
               <input type="text" placeholder="Start typing to search.."
-                class="lh-38 pt-2 pb-2 ps-5 pe-3 font-xssss fw-500 rounded-xl posr" />
+                class="lh-38 pt-2 pb-2 ps-5 pe-3 font-xssss fw-500 rounded-xl posr nav-search-input" />
               <button class="btn btn-primary rounded-50"> <i class="feather-search font-sm text-grey-400"></i></button>
 
 
 
             </form>
-             <!-- <a
+            <!-- <a
               href="#"
               class="nav-icon"
               data-bs-toggle="modal"
@@ -93,9 +95,9 @@
               ><i class="feather-heart text-grey-500"></i
             ></a> -->
             <a href="#" class="nav-icon" data-bs-toggle="modal" data-bs-target="#cartmodal"><i
-              class="feather-shopping-cart text-grey-500"></i></a>
+                class="feather-shopping-cart text-white"></i></a>
           </div>
-        
+
         </div>
       </div>
     </div>
@@ -107,44 +109,43 @@
         <div
           class="item rounded-6 bg-image-cover bg-image-center ovh style3 d-flex justify-content-start bg-image-cover"
           style="
-              background-image: url(https://via.placeholder.com/1900x450.png);
+              background-image: url(https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260);
             ">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-lindex col-md-6 col-xl-4">
+              <div class="col-lindex col-md-6 col-xl-4 welcome-info-text-box">
                 <div class="slide-content text-center">
-                  <span class="text-grey-700">All natural products</span>
-                  <h2 class="text-grey-900">
-                    <b>Healty Food Pure</b> Orgomart Market
+                  <span class="text-white project-head-info-text">Hər növ bitki topları</span>
+                  <h2 class="text-grey-900 welcome-head">
+                    <b><b class="logo-name-span">Green</b>Bomb</b> Layihəsi
                   </h2>
-                  <p class="text-grey-600">
-                    Orgomart food is food produced by methods that comply with
-                    the standard of farming.
-                  </p>
+                  <p class="text-white">
+                   <b class="logo-name-span">Green</b>Bomb layihəsi sosial qruplara məşğulluq təmin etməklə qlobal iqlim 
+                    böhranı ilə mübarizədə təbiətdə yaşıl izlər buraxmağı vəd edən inkişaf etmiş bir toxum topu layihəsidir.
+                  </p>  
                   <div class="clearfix"></div>
-                  <a href="#" class="btn-lg rounded-25 btn bg-current">SHOP NOW</a>
+                  <a href="#best-seller" class="btn-lg rounded-25 btn bg-current">İndi Alışveriş et!</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="item rounded-6 bg-image-cover ovh style3 d-flex justify-content-start bg-image-cover" style="
-              background-image: url(https://via.placeholder.com/1900x450.png);
+        <div class="item rounded-6 bg-image-cover ovh style3 d-flex justify-content-start bg-image-cover back-image-size" style="
+              background-image: url(https://maraelephantproject.org/wp-content/uploads/2018/12/20181128_123631.jpg);
             ">
           <div class="container">
             <div class="row">
               <div class="col-lindex col-md-6 col-xl-4">
                 <div class="slide-content text-start">
-                  <span class="text-grey-700">All natural products</span>
-                  <h2 class="text-grey-900">
-                    <b>Summer Discount</b> Orgomart Market
+                  <span class="text-white project-head-info-text">Hər növ bitki topları</span>
+                  <h2 class="text-grey-900 logo-text-2">
+                    <b><b class="logo-name-span">Green</b>Bomb</b> <b class="text-white">Layihəsi</b>
                   </h2>
-                  <p class="text-grey-600">
-                    Orgomart food is food produced by methods that comply with
-                    the standard of farming.
+                  <p class="text-grey-600 about-project-2">
+                  GreenBomb iqlim dəyişikliyinə qarşı mübarəzədir!
                   </p>
                   <div class="clearfix"></div>
-                  <a href="#" class="btn-lg rounded-25 btn bg-current">SHOP NOW</a>
+                  <a href="#best-seller" class="btn-lg rounded-25 btn bg-current">İndi töhfə verin!</a>
                 </div>
               </div>
             </div>
@@ -154,7 +155,7 @@
     </div>
     <!-- BANNER WRAPPER -->
     <!-- CONTENT WRAPPER -->
-    <div class="content-wrap">
+    <div class="content-wrap" id="best-seller">
       <div class="container-fluid">
 
         <div class="row justify-content-center">
@@ -173,18 +174,17 @@
                           <i class="bx bx-heart" id="addFavorite"></i></a>
                         <div class="clearfix"></div>
                         <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
-                          data-bs-target="#productmodal"><img src="https://via.placeholder.com/171x148.png"
+                          data-bs-target="#productmodal"><img src="https://productimages.hepsiburada.net/s/23/375/10061664616498.jpg"
                             alt="product-image" class="w-100 mt-1 d-inline-block" /></a>
 
                         <div class="clearfix"></div>
                         <h2 class="mt-2">
-                          <a href="single-product-1.html" class="text-grey-700 fw-600 font-xsss lh-22 d-block ls-0">Blue
-                            Diamond Almonds Lightly Salted</a>
+                          <a href="single-product-1.html" class="text-grey-700 fw-600 font-xsss lh-22 d-block ls-0">Yonca toxum topu</a>
                         </h2>
                         <div class="cardFooter d-flex mt-5">
                           <button class="addToCart pe-0">
                             <h6 class="font-xss ls-3 mt-2 fw-700 text-current d-flex">
-                              29.99 <span class="manat"> ₼ </span>
+                              1kq-1.99<span class="manat">₼ </span>
                             </h6>
                           </button>
                           <button class="addToCart">
@@ -192,10 +192,172 @@
                           </button>
                         </div>
                       </div>
+
+                    </div>
+                    <div class="owl-items border rounded mx-2 my-2">
+                      <div class="col-lg-12 p-3 rounded-0 posr">
+                        <a href="#" class="wishlist-btn posa right-0 top-0 mt-3 me-3">
+                          <i class="bx bx-heart" id="addFavorite"></i></a>
+                        <div class="clearfix"></div>
+                        <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                          data-bs-target="#productmodal"><img src="https://www.intergez.com/wp-content/uploads/2021/04/Ruyada-Pamuk-Tohumu-Gormek.jpg"
+                            alt="product-image" class="w-100 mt-1 d-inline-block" /></a>
+
+                        <div class="clearfix"></div>
+                        <h2 class="mt-2">
+                          <a href="single-product-1.html" class="text-grey-700 fw-600 font-xsss lh-22 d-block ls-0">Pambıq toxum topu</a>
+                        </h2>
+                        <div class="cardFooter d-flex mt-5">
+                          <button class="addToCart pe-0">
+                            <h6 class="font-xss ls-3 mt-2 fw-700 text-current d-flex">
+                              1kq-2.99<span class="manat"> ₼ </span>
+                            </h6>
+                          </button>
+                          <button class="addToCart">
+                            <i class="ti-shopping-cart mx-1 font-xssss"></i><span class="font-xssssss">Əlavə et</span>
+                          </button>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="owl-items border rounded mx-2 my-2">
+                      <div class="col-lg-12 p-3 rounded-0 posr">
+                        <a href="#" class="wishlist-btn posa right-0 top-0 mt-3 me-3">
+                          <i class="bx bx-heart" id="addFavorite"></i></a>
+                        <div class="clearfix"></div>
+                        <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                          data-bs-target="#productmodal"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUWGCEcGhgYGCMhIRsgHiEhICEfIyIcICwhICEmHB8cIzIjJiouLy8vHiE0OTQuOCkuLywBCgoKDg0OHBAQHC4nIScuLi44MDExLC4wLDA2Li42MzMuLi44Li42LC4uLjAwLi4uLjYuLi4uLi4uMC4uLi4uLv/AABEIALsBDQMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAABAMFAgYHAQj/xAA3EAACAQMDAgQEBQMEAwEBAAABAhEAAyEEEjEFQRMiUWEGcYGhBzJCkbEUwfAjUtHxM2LhkjT/xAAYAQADAQEAAAAAAAAAAAAAAAAAAgMBBP/EAC4RAAICAQQABAUDBQEAAAAAAAABAhEhAxIxQRMiUXFhgZGhscHh8BQyQtHxBP/aAAwDAQACEQMRAD8A7jRRRQAUUUUAFFFFABRRRQAUUUUAeUUVofx38b39FcW3asJckA7i57/+oH96WUklbGjFydI3ua9rl1j8WwLYF3SsL05CtC/OTn6RWsda+PtY9+41nU+EpA2qQNq4z+Yc+/rSPWilZRaEm6eDvFFcK6D+J2sUsjul89t6gR9UjFVHWfjLWXnZLmpItu2QmAhHERkDjvWeMvQPAfqdm6/8a6PSNsuXNzyAUTzMs5lhOP5qDS/iJ0+5cFsXiGJAG5GAk+5EVwqzpU3lrhZmYk7ySZ9zSWq1A8V0iAIIYc1Pxm3gqv8AzqlZ37r34i6PS3vAJa44Et4cELPAJJGe8Va9G+KdJqmCWboZyu7b3A9/fNfMfgN4hI3FSOTVj0bXvpyt62WDAwGHINN4r5F8BcH1PRXz70X8S+oW7xe9cF1CcowAEe0fl+9dl+E/iW1rrHjW8AMQyk5WPX5jNVjNMlLTcVZe17Wt3/jbQIzK2pTycnkT6Ajk/Kr7T31dQ6MGVhIIOCDTJp8CNNck1FFFaYFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAHlI9Y6kunsvecMVQSQokn5SRWPW+o/wBPp7t4jd4aFo9YGB9TXKPib8TDf03grY2XHMMS0gAZkYkmanOajjspp6blno6n0LrtjV2/EsOGHcd1PoR2rTvjP8RLmh1RsjTrcQIDO+CSfpgD0rlbs6oDZfYw5ZHKtH0NIahXYEo0sctuMlvqeTUFrNr4nT/S07fBtJ/EHqAuEtfIS5JAKr5fYYkQMfStSTfcumLrHdkzz+9J6fVsfKwhv07u/rTFuxDy1zZx8onP0pZXWWUio9LAxrFa3t3PvJ9ef3phUt3NK1y9zwBxEYFY9V6TutsfFFzuCARFI2F32rYMMF3DZOfmfrSpKSTQ7dXS6IFRLTyhzHHapLejVg7M+0HtOSTyR7UtpbDAsiqOJg5Md4pvpNhb+4AwLY3EnsBVG6Ttk0uMEWgZlYrvLBRPHAFFty7EnG4SDHpWWjsszuVUhGEBlEQPrWemnc28E7T5J9O+B3pW1yPCL4MGe4bZdtwIgARyKgtD/TYksHJ8qj+TTXWOoDFplgAyGU5j0P1rHwmZS+4f6ZEYkke380yfltiS/updC2m8wZLqNPY/52q40Wq2WtiOQeDtY5+cHNVN28z23KMYmcrk/WoOn7g21olhI+vyokrRkXT/AFLbW3Qn5xJ9s1e/C/xjesQmmuQAZKHIIHaDx9Kodd0S2gW5vdQRgk8mqxL5tvleeSvf3rIU1cTZWnUuD6h6L8VaXU2zcW6q7cMrkKVPuD/NW+m1KXButurj1Ugj7V8sazUQQ6eeRwO3zFXXwj8a6nTsRZuAA5KOsoT9Mg+4NVWq+WQloLp5PpWiuS9A/Flx/wD3WQqFgBctcCe5UkmPlXTOmdSs6hBcsXFuIf1KZ+nsfaqxmpcEJQceR6iiimFCiiigAooooAKKKKACiiigDEmlr2utIYe4inmGYA/c1V/F3Xl0djxCNxY7VExkg5n0AFcA19xWeS+8zLAtJPzJyajqau10i+loOcdzwdM+PPjbTaixc0unubyTDuoO0BTMA/qkiJGImuUdQayQJ3I0/wCEGoP620oecGfyr3mq7arYSWnOTx9Ki05y3M6Y7dOO1ZLqxaN4sqqNgEBgc/8A2l9Fp7iuyyNo475rPo4S4ShvGy3sMGPX515b0rux8K+qiSACDz86TKbReKUqdB1LT+IgdfDW4mCATP7Hsagu6drlsK8bhBUAzums9L8Pt4sXrgIPOwyZ+R/mjruit2DCudwI2mcx6mO9MukmJKDy2qHr/RStjxLVxgeNpPlBxI+WftUOm0gs2GZSHusRDA8QeB6/OoG1b3LGxiSXAJHfHy71Lo+m3rRADbBEhbk4kZpE5JPc+wcU2nFdHmq1IRg625vERJGFnmsbGhJDC3b3OV4Tv7H51jbYtf8A9Yh4gBlB2+w459jTl3rLo2+2xKzBi2VMcYj5VsrXHIySa+B5e1As20W9ZNsNwN0ExyMGvdNpECy5ZQR5QY3EniT2HtzSvVdQ+obxPCZbjHyMRAEdv25qO+j2xud7ZYiCB5gc/qk49IApkrXoxHfuieF2C3cEsP1Eck9559o9qT/p3T8p8q4wJMnHy4NMa5wbYUE7p8hUyVn2J/KaiuWAqDxTcLBp3QYiPatSoJO8Hq3B4QsqhVv1MeTPoO1e9N6R4twNvIgQWAmPnUTDxLiMWZTtlRGTH815rbt1AzJd2ty23En/AJop8Lsmmk7lwi066iqLNp7iuknHDA+uKqNWb1swAVtEyrGCY+maiW6ojxQSxEif1E9yT2oZDbIcsNp4Ib9xWwhsVGznudoXbVoI5LzlhiQex+VTaXUiSJMf7vSi/oVuqDbPczMY+tLnSlcRJ4MGqUnwStp/AtVuuEIZQyzyTE1tX4dfGiaG87XEJtXdqsVP5Ns+YD9XMVp1vVoU8JlYN6z9qw1NtEUbOe4mkjhjSyj6w6T1S1qbS3bLh0bgj+CDkH2NP18yfA/xrf0F3802nI3JyCPX2aO/811LS/ixZvXbdmzYuFrjqgLkADcYnBJNXU12cz030dJooopyYUUUUAFFFFAFW3XtOL/9ObyeN/snPr8pjtWuar8TtDbvvZZn8h271XcpPeCDODiYrH8Tvhpb+kvXbNlTqVAIZR5mAIkY5O2YBr59t6fa3mBEc+v371OUmisIKR0343+N7Wr05stYQk/luk/lz2xgwB3rT16fb2opMEgtuHYd/nVICNy7pCzLScED2q51983AqoywDhhwB6Vx6m61k7oKKukVmg0FpbsXLpXcYDRgfOvOo6S0k+E/nDYYCN4981L1hT45RE3qFyRnjuar7Ftrq7xJj7xVI2/NZJpf2pF/pbbovihEcR5gSA3zFVemtZY2wyyZOZH7e1WHSSl/aFztI3jaVInAG4tBq01HS1XxLtlbTELAAbJPfnE/WoOahJp9nWoSlFbXaRQajol14ZW/Mf8AcBNK2uluWazctubo7nIA+tWA0ukID3HuJc5ZFByZjn/iPnTOu1Fh7ZS1JaI35BHyJJJIHaqrUawvwJ4alcm/uVgVrTkXEYBTHiIp4jvFQXrgcl1uGCQMsZ988Yn7GmtHq79i6q2yNRvH5WzPaD9Yq1bS6douG2BBm4haCpHPljke3cUSkovK+hOKclS/nzKvS63w7w8O7IYeYSCJHBjiRmsOo3rniAhyVcbiNwEEDOff09ai1Wsti43lCo35SFwVnnn5UtauWt10gMYX8oBIIGSTnEfaqKPYb8V8R/Xa+462ij4UZBMSOxxj1H/VFlbrWWYWTExvZgB7gA/m+YxVa1hSqZKMxkzIAn3+Xp6Vet4Xgoly9cuR+VLUfcZMf560OorARUpNuQqFtSoQeZIDMpO2T+kTxOc06S98pbt3NrFWnbjaB6xyDj96W6uGNwXbFsFXQbkAA2sPUA8wBnvXnSlZSzOh3xuIAyceQfc/aptrbfY+mm5bWsepX3S7BAoZbgjbHJB5MjtFOrbZ7ZtNZ8qD80Y3f7iRz9aYtaUiWD/6qAbw2BjgY4H29aq9f1O6GDxsVxBVT9j86dS3vAakVBW3ySXbti5JuttcAKI7HuQODSqeZ/DBJQEjdGDUej1aLd3bNwPYgT/GKvdJ1e5edbW0BLYLFdseUds1rTjwRjUll/uVq2RZdknMAj96811+f/ENx9h3pbr2lFu4W3H2U8wePkKvdD/QhVAcSQCzMCCD6Az9zRwlLkyKuThwU1rzjw2lbi8lhgEfestR0hwFYgMG4acH9qOoWybxa3dBA4IaD/FOWNRbRSblvcrDzFWyvuAPL9YprpWhXC3T+opaW0YAQcCDOZpvpWo8G8t1S0owII7RUOgOjUEl7hM4PFQau81uFE7T3I5mlTTxn5jVtpuvkd26h+L2ktm2Et3LisAWYQu32g8kft71v/Tdcl+0l62ZS4oZT7Gvl7ovV7OnLm5pU1CXEgBjGxh+oGDyOR8q7R+EvxLbu6ALcItm0+zzGAQxlYn5x9KtGWcnNKCSwdEoooqhIKKKh1N4IrO35VEn5DmgCDqms8Gzdu7S3hoz7RydoJj6xXzF1XqLX793UPtQXmZ4HCk+8ffvXRvxX6tZdkaxrS/iKVaylwkQP1QpgTwQef3rlurZNgQYjsTiuectzo6tOG1bmMWOkIbPjO8y23HB/wA9aNPp7VjNu8SZkrEgD1poddT+mWw1ksO8cY+VV+1LubShNokKP4zM/Wore21Lj5HStiSar9R7Qa8WS73LgY3CCCBj5H/isNNpEcsLNyJlto7TVVpHt7j4uyCf9vf5cU/0TWK2oIQcqBOOx7dqZx221yZGabSIrzEf6RtshGccEjvIxNP2esrZt7WEWrnIURBxn7VJ1fVjettUNxjb84UGZJPmM84iqnqOhuottiWuWo3KCkfTPMUiUZpbik24Wo5/Qz6jdQhbiIQM5ONw+QifnWNu9ePmYFd5IB24PfHeKsLHRUvqlxndG2ncW2gEkcCRt47Co9L00vaJXUH/AEv0u3lzgxtBIPsec06lFIm4Nuyr1jXBcS5bD22WNpCnkf8A31qW1p/H33ChlTucu0FzMmO5x6nuKe1HUXs21D2dyn1by/I9pHuJqDQa4PeCEBS74HYbvynPIBg/KRTW6uvmTaUZV9i06l1Ky9sFgFAWFs7ZAI/UZ5Yn6fyavp1vxU8JVO9QBxhPUnt5jxx35q6Xq5ZTZvW1W4tzzL2M8nPrMzntVfrOlNZcs15wt4bS4G0H/wBTiBj34nipQSjj6HTqS30xLp3SH1N9BdublOGO6Iif89cj6W6dNs2WuNbclwu1drSAdwnM54I+vtS+m6dd0y3LqoWUSC6kYMd44EEZpax1J7KIXQHcZUmYMmcYzmJppqUuHj0JxcYcrPqT2etJdRVSxuePMZgAkZ554PHaKXN0gljaRtvYtB+QwJNY2eiKCGbxUZgTgAczByZ5AxA+lQ3HRjunwWUjcYmTHoDHPp6nmt2x/wAeA3T5lyP9Nl9UAE8LEsEMhhIG3HclhTHWFRCSVRlQl9vdfMQV9QMfKk+maY3bwOn1IZoJIYbDjspYwTnE1a3Lti2zqtop4ah7hLZPMgyTM+0dsUksMeHm5KDqmoBXxYBwIjvPYmJxFe2NfCrdtozSpS57A+/c0z0/WLK+NbJs5ZVtgnJ4HbbzXjXTcL2wvhqyyASCZ7HHfFN8GhG1e5P7dmHXwCqtdJyRwJgfMjmldA+mJKtbEkYJ9f8AM0zp+qsAFdFuIJUhxgfvP3pUpa8UhlQJHAJBWfQ96aFqNP7GS2ue6P3PekdE8e35SFbcYPP0NYafToC6XLjblMEdjH0NY9Pc27g8BmPmzPEf3qzTody7qmc2SEdiwbdHPyJ79qG2m7eDLi4ras8MzPUtMiBdjtjJIkfcR+1LdQtJeAawxwpAVh6dvnnml9XaFwlcqMiCZgj0pVLFxCQpkDMj+D6VkYJZTyY9RvDWB2zcVLaW7g85nPt6ZqK1rXtHakhecE1L1hBcAdWkwP378+9QaF3J2lYjkmnStWxXh0j6i+DdTfuaKw+pQpdKeYHn0BI7ErBj3q9qi+Dbtx9Dp2utudrSkk954n3iKva6FwcUuTyl9beRLbtcICBSWJ4AjP2qq+Nep3dPor16ys3FA24mJIG6O8Az9K4TY+Jdbq2a1f1rLaYZFweVozEKuBNLKVDwhuKzqaBLj+Ey+GCdrEQSs4weCRFVF9lZ1VlO4mBP+etZfEN4l2VDIUx+3/2lzdcIu8wzZHrmoQi6TOuc4210Wmk0TyF2HYD5tsTHtPJrHwrO9haF4XOwjH1kYr0asCBcbaxA9QCB3xyfXNWvU9aunRLhMs4Gw4BKxyYPcevakbldMolDa2hLpGiNp3DbSbqRnjkGkL2lazcDlgF5Ec+8/wCGmenafUa8s9shRb7x7eg7VHasvvP9SQwHYDcWEGIoupNXntGLa4ql8yXSX7bzbtEm9cPPA/8AZmPMAVhb3WnCXdzqCQrATABJ49M1kNFpVPiad33ICzB8FRHBEfP2rHX61FPjIxV5AIIw/wAsQPp96PZP5jJp5lSr09DzU6pd8sgu2phkViu49iAOCO9WOvsWgFuApp4/Ko5gDgwM5zJM+9UOv1oJkrBOfJEZGZ96m062t4LXTdEYJEDt2M98GtlpvHX8+gQ1Ibnav7Gw6vXKLdu67NBbLBRkmTvEzBjvBiQfaqa71R7w2OAwKbQbnI7hgQMGYPqc+tNai7de0yncba2yVlcESJIx88HsB61U669ba2iCN0gAT37k9vT6CshBG6krd9V9SWzpGubkRCGUbvzY8s5LGZnGB9qeu9de7ZNq5ZLRghTgxkcHMcyPeotX4dkA7nZmgGcCIkQvHrmT7e9T/U294e3MsYPIGfl6Yqm1Sy0Rk/Dwi2tnbZDLuFsbSVExBM5yMkYOc0sL7F2u+A+ZZfL+Ue3YfIVY9DDXWbStc22ml1EZVpBET23GYq10VzztbYEXbRM+mASue+4x2qTmoyce/wBCyhvipcf7KZeoM1l3uR4gK+G3BUKI2zz5hM9uD2FVTwpNx0eWUMslvN65H9/WpU0fjPcgwA0wDxOO/vTWlu3JOmZVYARvIwFOQZB5gj/BiqVcEm7Wf4zF7do6VWmXbjzmQQfvM8GoyNo/1iscE88ZAIPJz9qe0nSLBuWSgITd57naMgE48smIBzPNV1/qJW63hhWS2xb/AFF5BMTHtiCKyKu6BuuRrQ63YHKsy2ysbyojA/25+xqs1WuO5LyWkSRkpwSPUcD3jmrO/qbmpAuE21iBsXvmJjb9KhHTQbhW5tRmUMjKYVvbsB+1EGrzybqxk4quBQaw7juDKrZzxuP5o7QcYqzsoh2ozqQxiZ4+fp86pbnmOyGUBoYTIHrE/wACrHS/0qq27dP6UByfmIn7962cUJpzfBHr+nvYvlLZBU5BBkj1B95/enNJqyz+G7EkQVJkRIyCAYiap7slt1lWkc/4ak0Fsm4ztcCNx5hx7+9Eo4yzItt0kWd3pwuuAzG2Co3QJ2sPakNCqLdcO7FAYVicn3IPI9qZs6k29wa6c8OBIMe3b3quTUBrhSQVyJ9T6zWLc7XRr2xr1JtbqQPKqq2Z3BYgekVNbcqwjv3k4+nFRahAAuwAPkH/AJjtUmr6kTbRZ8yRkjkfWtrCozdbdn0V+GmrdtHbW7dts5koFYFgmIkDuDPywK3Kvmn8NNHe1PULRQGEcPcuLIhVMmSON3Ed5r6Vq0ODm1FTNJ/Fb4gTS6JkMm5fG1FHoI3E+wB+4rgiXyAWMBS2ACZXv35+fz9p63+M2s0FxVsXrlxdRZ86FE3DzD8jHAhgB3xArjceLLDEcD19f5FT1KZbRtIYs6txuaFuEn83A+vE0pqdOso1y4CZ/IOw9Jq3t6Zf6R7rQrJgL+3/AD/NKaDopa347Hbgkb8L96ipJZ4Ojb1yIam8bjqqoDtwJ/vNWGp6iQSWtAwB+QSPln8o9hUOi1SteB/KAMnu/wAzj/qrE9Q09tWAS4WLyWgEEdvf9q2UspUbFXbtCel1ESyXzae4I2BMnOA2APeR69680ukezfUl2J3DkQGXkx96LurtuwZQds5ZsZj/AJ9BU/VbrG1auYGyZbkn9pgcUub9xsc+n89ibW6YNfkoFEMCR7HIGJ9sfbtU3OlBpeTsDkKpOIk4EnGO9T33u30LLBk7juIDSe4g8RyeKs9HYawiL4iXd4JAiIPAmZnn2ptzguQ2w1JPDyJaYW9J53sJeVjhLuSI/wBvbvnHbmah1/VLV0EeFd2zO0sIU+xiYHERWF+2UedSGLAjYFyCOfvj71hbG111DjaC2ADjuBjvkHI9KbDyTaadJUvx7nnT9beSLa7nWcW4OPTnkdv5qzXqVpH23dM3iQNgInPfuAfmftGa7X612vG5ayYzEAx/btge1RWepsxWQdyg+Yj1In7itq80YmourLi/cO9bt1FaDu8IHex//RzGTH/EVK2m0+oUFNx2rAG6Chn02wTJzInFa7bbczS0EQYM59sD96vfg+yL965ki5HEKAccRHbIn3pZLbG/QdainOnmyssaa7uVx5GQmDGGgdgP+MVYWurXfF/qGQFdpViDJJGQRMAken/tUXUNXcus4Li1tO02wZIUYOY/iR9KZ1tq2Ra0yMSFEtHEnkme+T9IrJtNptZ/CNimk1F4/LEEsFXR0XF6TIYFQ24kjnygKUOe9S6fW6i3dv2ZRbjkKSoBMbYwTgKFiTHE0zctLYt2gV3AODk+pGPXkDIIyAeBVRq2Ys1wH8wmTxGAQYHp7famXm9iU1sL3puou+B4Glsi7B3b+CVBAYnceDx+3YVJ1T/URG1VtUKqY2ONwAHqAVyMgGQfatZ1FvUWmPmLAqN4RpG3kSB/cetNWLs6XBJKtlTzAKiP2Zse1Y9NXa/caOo1cX9OjHxLjLtt5RWMGIJHb5EjMT2q00y2tUA29rb2ZMSvm749D8596VtanZkeWM3EYRGREg5E8iltT1FRca7bYAEBdoEe5HPuftWbW+B96vzPkmsdKfxn2k7Qx2t5Zjt+Y8xWGm07eOTFy8LYlxEEfv8APtVZdZzkTAMT7f4auuio4lrtwCywyFdfMRiCF8w/6pnajbaJvZdRTEuoXQskDI52ucf/AJwY+tL6xUdQ8mSIbEx6ZHerXqWlt2vOm1k/UqyIHB5JnHfmq/4fv/8AkG4Q2PNnHp/9pk8WicncqfYhodQVwQT6TNS6jS4W4iiP1AH3qdnQ7kJypgQPTvUNrVMyFNvHfvPvTNvlCpLhknVLaEbrRGBOCe/8VgLW+3J27gOf7f8AFJSyAg4kVsHQujXbtyza3Lb8U7Q1w7QPc9+MAdya3hC8u6LL8O/im/0+47WrS3TcAUo27dg8Lt4knuD2r6F+GOvPqrZd9Nd05BjbcHPuCQJH0pT4U+B9JoVUpbD3gPNeYSxMZInCg+graKdJkpSTOT/jH0W2GTVMCRchGA9Vkqf2x9K5B1BLQA8K427jaa+jPxFXUjSPd093Z4asXXaDuXvyDBAmvmhLYZmIjByTz9I/tUJQ812dGnNuG0S1GobfLnzDHyq402nv30KklbSCWZiMD0Uep/b1rxdJbEbQxbbLOzck8QPQfeoNTpXS6quysDDEfLtFDknhcjLTkluY5c09rYgQjy5GBkzjduMUlc14Egg7/SaZ8dkghkhm80rge8Couo2Rv8Q3AwiU8oE/MdhWRdOmNKLcbiiazq0NsyiqRiGgz8pGPnSek1F4yqZtTJUiVMcjiYPpTaam4j7AFz5pMECffPy9awTS3GubN6he5XGPQLiTnArVRlNpFl1REuWRetnYUObQObcdx3/47Vr5d1uBVDTxBB5PcTVxb0NpCZe9PI2gT/aR3pDUI7PKHf6NwQf/AGLST60sFVrr4lNTNPv4GfUL14gl7bDaNskR39/kfvWZd7ltQySsSMgHbzycesehNbD07ot65a3ahwNpnzEhSMCeMzxyO9Vev0oVGIZf9MEiJ80yPoOR3pYzV0POLebfHZhc0KnZsXwAUIIBLEjHM5+oxTGo0C2lZn1BuPdXaAFGDzyG7dyKpLmpbcFiO5DEBY9SRyO8farqzfsWI/1kctyU+ogADAwKaSkqyTi9N9Fbrumf+MlgQySCjfIwffP3FY6NGs3SqkncpGOeZHGOR/FOasC8N6uRDOFxG3JIEcROM5iKrrNi8Buur5WGOxM8ccYyJp1mNMR+WSaQ5d1i7rhZRuK8Edxx29f+DzVh1fVacC1csJseCLgVYBH+4Rgx6+h9hWrayzcD+bG6O/b3q61mpBthSMrwZ7RxnsR/NY4LDsPEbb6JuraViy2rjlQVLqTBOAGA5AJzzOINIai00ENgCRIHlIGCR7RHrUGuu3PDtLdIZOFMflHePfM/t7Vb9R6vYcBULSOZEbvptAEmTAihbopdg6m3boc+Hb7WrXhhVJYT+SSfqTj59vqafW9o0vG4ygnblmb9Q9AAB/GAK1bR9QvBGRGkLiScx/neqyxeLE7iBDSMcfKpeA5NtuvYtPWjGMUkbB8Raq3euIBkquSTJC8KrEdgBMHInJ7VlrUa8gFu03hW4DMvrIwv1Hb3qsPUV2XAULXIAQx2947jJz7VGes6m3bWwLm1I4UCYOcn1k1RacqSXXqT8aKT+Pp+C41umQWjCeHjy7z52PyHbHeo2RtgukYZNhAjMTyDyRMZ9hVNavKYLk5OSxmAe8Vc6vqVq2fDsedVEbjkGYkiTz7j0rHFrBsZxbt4FenaVLzhAWVSvmXMT2APufpTPT+k2lum2y7yvcHt3kTEggioQTp9OQGgXGyDBP8A1VXpNUbdzeCVBxK+h5ieMTRtlK6eAbgqtZLbR3dPvbdnZuCNjzAcCfX09aj0qYY+GoYtIkx9Ig1FY0Nl5KttiSM49sH+KXssXyxgg4AmP5mm23Yl1yTaknczOFkLAHO08/uADXZ/w9+HND1Lptr+osBns3GUuGIZs78ssEqQw8pmtP8AhD8P7XUNDea3e26oMNqMfKAP90SxDSRu7R867P8AAvw7/QaO3pyQziWdhwWbmJ7AQPpVIRIaslwi9s2gqhVEKoAAHYDAFS0UVUgVvXLN59PdSwyrdZSELCRPuDjiRmfrXy4en6gX7lnwirWyTdlQuyOSWMAD0k5xHIr6t1vieG/hbfE2nZvnbujExmJrhH4g6XrLDxNZbLWgZ22c21juQpnHq1JMpp8mlBnSzccqWtKwXeOzGSJHI4wYjtVZqHa4fHZsk4E+nt6VsvReqm1pdWhtW28dUEPHl2t+YCDLZ5xHPbNVZ6Pev+I9lGZLYLXXIhEAEmW9fQDmopRvHJ1uUttS46EtOhu5YY9OxP07VnrLPnCiHiPySQMcfSs9Vq2ChRbZZ4xzXt/S3tOALtq5bO0NDKQYYxOeJPrmtVvIrSWLMNJ4hLOoAT9RPtz+39qn1GtDMBKkRAgQ3eOMcmoOn6i6gJtsst2Kzj0k8fSotYhLE3AqN/6LAB+Xr70bc5Dc6wzPqunG8BWMsF5Mie8nn3pvpvWL2nUWlt71zBUEbs5llyYPb6UtpdIGG648xgoP7n/b6wJ9M1c9Fv2bikSobgSIA9skQCf2FZqSSXFjacW5XdWQ39a91ZvSmJVLQHYSC0cgmBBM81WsL9xNgmIys8ff3/mrO9ofDLuyt4eQSmdjAYPuvB7fQxVUuodAW2KyMJzB/wDv/dLB3wU1ElzYvYvFGO9GHoRyMY7EemKf6JrjavrfS0pXIggdwJieOx+pFQ6e4xEkKqnIBGcd/YT6z3xS9zVBGVFPlAAx96q84ObjJZ9bs23YXbRCg5dePQH6n2ry86+EWnMjBaQR/nviKS1L7iVFwqhAwATJHGPbJpSw4P5mGO0d6xRwU3pPC5HEvC8SzyWI5/4Ht6VBfsW9kBjvH+6RM+gnGf4pew2xw23ygyDPH/ya2X4ldUWzuVSrKYIWJIjJ9YLED/JG9skl2KkpRbfQgurF2ybf5oBMECVKjBUjke1L6sWxdHlLDYMbTzx3rzVWQQjKCpJEMMH7fatj0OltXrIHDL+r9Q+vPqfoanKSjlcDqMpOnz+TXn1SF12eSWz7L9asF6cFuA2Ars0ja2cjPpAxPakURfFe3eBZgSNy8+siP4oTTFWUG5gg/liY/wBpHE8UzWMME/Vfse6bVm3dNt03MTnackn0I+fyqPX6Sb6oUZSSFPl9SPTBMScVmzlLwKhdyx5X/Kcd/fP70/p9d4jhNjJciInn2Hy98R6dzjzL0MVPyy9SLUWrNksY3BcCRA+/OfrRodMhBt3t21gSrr6j0nBH/XzrtXvDbHA35kzMR2HtXg3L+RpUZg8Fvr/Nbtxya5rc8EWp0zgm2xJZTxB7fxio7F/btJWQjZEf34mrS/qy6/1E7byACP8AcOPsJ+lQq2+2bgI3zlY+/oR29eKdO+USlGnh/wDDavhnr2hF/wAS/pTfTYQFMYbsWX8p9PbmpPgv4bGu126zpxatq/iFW8yWwDhYf8wnEd/bmqT4V04uamwFsi7uuqDbiJzBBgjEZPyNfUnT9DasrstW0tpztRQozzgVkY9IWcqy+Wa/0H4Ks6XWXtXbaPFXaLSrCpJBbjmSB2EVtleUVVKiDbfJ7RRRWmHlcv8Axx6tct6ezp0O1NQx8RvZCvl9pJk/Kuo1T/EPw7p9agt6m3vVW3DJBB4wVIPFZJWqGg0nbOD/AA78D6rWaJtTauJttO4towM3AIkz8xgH07VVaLrmqt2H01q6VtXQwZNoIbcPcYkdxEYr6Z6d0+1YtLZsoEtoIVRwK5Z8S/hc63Ll7SQ6NJFk4Kk58pOCAcgYIqU4NK4nRp6sW6kcmsm4pS6jkNbO5T+oRB3egxOe0U58UfEV/W7GvwSiBN0ZYBjk+8mD8q3fof4aah2t2r9prdvm4+4fl/2yCZJ/7rbPxW0a2OnC3ZsW9kC2zbJKIBgTyJPf1+dLG6b4CTW5ds+fFuBGJBlTj3+cAmP3qW9eZ12gSo4iIE9/fFNaXT2QVZ7e9VYFlmAy91lciRiQay1wVXcqpt25PhpJMKSSBnnBiTWtoNrsrLN4rkGDjPtx9qasJa3F7jERmFMbj8+w7kVLbS2bc3LT7gyhCCAu3O4ERmZHfEd5pzXFPDClbaADkZY4+2cRWOa4Kw02076PNJrbgBFokBw3laWBxIH7UgenQBvaGc4HYd+RjHG33pjoq+IVUttgZ94wD+1V+p3hyreYgmJ457UJU6QrzFNk17RN+U3EjtH/AH2qXTtaVNt0bgMY75OaRN0CcHnjMD0rHTJuJ7QCSfYf5ApqbRikk8IctDa262hKEfOOZjP+RT+t1eju7Ctgq8gOu4kHgED9U85mlOnat4UbSQMCO/pj1x9Yqa/Z3kHYtoMQC7GFU8SYkgZ7DvS1b/czq+vYz63p7VwbrKlNuNhklgO/HzziqjWaxntohafDkKIyAY/4H7VY9T01yxdFq9dW4IwUeUgj1AGfpXnUNAZRrVsnEkoCTA7kCYAkZ962K20mbNqSbjj1PGu7rALbfLwQc/5NGi6uyMjEQx5PZvc+hnvSVq1uOcI2ef8Aoe9Z3tIovMgMqokSe/fPeDP7UbI5TNlqSlTXsTdfJS9vQ/mVWb/1bgrPqI+9YdD6qLVwu9vfuXbg8GQZzgzEV61vcNquAqevr/YUraOWD+ufX5itSTjtYr3KVoZ6pcNxmuKoUCTt9p/tXtkDwxcJPMAzxz95/wAiskui9e2sZUj0gsec5OZxjGBWHULCoiMsiGIYTgxwY+UfelWKiNTzMgbU3Lbq7DdAjPerHSsGUEyvpHOa86dp/wCoG1zAiFIAxMU7Z+H9QXKAeW3hrrAi2uJy0enbJziayTTe1cjaarzS4KbTWmAfuAefXNY6oRDoMEwx/t6V7YRxKGSSZjnP0zTr6gtbW3jaWAO3uf4iSKbdTFUd0aRv/wCC3w/cu6r+qChbNliGJ/U20wFxmJUmu+1q34b6BLPTrC2yxDLvJYQdzZP7HH0raarFYOXUfmr0PaKKKYQKKKKACiiigAooooAKg1OnW4jI6hlYEMp4IPIqeigDRtL+FfTEcv4TMD+hnJUfTn9zSHxn8AWBoLg0umDX12srHzXCAwLQT3KyIHNdHopXFMdTkmfKZ8Rm8Dw7rXDgW1Qkz8o+WPavOqfDx05UOUN0fmtrd3tbPYNHlUz2k9/Su/fG/Q9bqti6bULatwQ+SpM95USRHbFcb+MPga/04Kz3EuLcxKgiNuYM9zP2qOzasHS9Zzas1LVXJIcCCpyYOJ7EfPH7VBdulSHAmRwf7Vsvwl0y1qdXYsXGaLl0KwH6kiY9jiD7E1n8c9G09jqF6xpEZFTaoUsWlyJJlswJAjPH0oVVbNzupc8msHWBiQq5YjtwRTGh0BuAqlt7l3cSVRWYlQcyqg4nE/St9+M+l6YdO0Wo0lgW7l64WcliW8ikMoZjO0OJj5GtW0drV6MrfAu2ReRlV52+ICwLBTyBMZxNa6QqbnyIa/pWr0bql6y1piNyBxyPUfIGPUe1Y6a4gcDVPe2Z3LbC7jzEb/LzGf8AqnPiDVanUOHu3Ll0202+fJUc8gQe/wBqR1HTrpVWuJcQEShdCAw5BEjI9xNFrkHurazZND07pWrWbmt1GmNteL4RgyjsrWwM+xE+k5ra/hrrfSU097Q6RLtu5qLbWl1F1R/qOwIUEySoLRAIAzWnab8N+p3AY0jDy7vMygH2B3QSR71n0P4a1VnU2W1dlrFi1eRrl295EAVgSJOGJAgBZJmqK1whGovllJ0TpN/UXP6dLJuMBJUDzKE8pGfQnNbf8d/hqujtae+t191zatxGWQrbZaGWIBIgA/vW/fAQ6YNdqbun1iXr993ZUgrsVjuZVB/MZEk+3AzXRb9hXUq6hlYQVYSCPQg81m3kSU8o+PRpl3sN0QeR3qJrIDiSGHrXbPiX8HC11rmivIisZ8K7MKfZhJj0BH1NVT/g1cSxfvX7670tlkS0DBK58xYdwCIA789qxRdlHOLWDn/Tvh59Q+oOnZSdPaN0yYDopWYPEw0wfSKUuAsdo8+4KQe0+mf2qx6r0e9p7Fq8gcWdRK7pwxUgxjtiQe+0+lO/CXw9e12ot27ZbBBd8kW17kngGOF7mseaaNTq0Vvw90vVNfKaazdeD+lfy/M8Uz1PqTiUuagki6Z08khSBG+V/wBOSREAkjv3jsvx5006Do963oVZcjxGH5irEB3kd4gY4HpFcN+FuhXdXeFmzb3O30CDuzHsB6/3ocEsvkyM21XR2n8FLWlbSlh4TajeZ4LquAOcgHJ9M171r8HtPevvdt33srcfe1sICAZk7TI2znsYn0xWw/CHwJpdBDoC97bta4x/eBwoP7+9bbTqOKZJzqVxYl0nQLYs27CTttoFE8kARJ96dor2nJt2FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAeVUfEvQbWtsmzdmJkMOVI7iriisasFg1H4X+A9LoSbltS96CBcfJE9gBhR8s+9alpPwxv371y7q7wQs5Ym3BZ5Prwo++a61RSuCdDx1ZRuuzUOsfA9m//S29xTT6ZSBaA/NO39RM8DJ5yfWtg1vSbF5Bbu2bdxBwrKCB2xPGPSn6KbahXJsoD8F9P27f6S0B7LB/cZqz1HTrNy34L2ka1AGxlBWBxg4xTtFFILZHgD2Arh/4kvrep+GbOmvmwhMILbHPG4wMmMR2zXc6KyUW+zYyS6OGfhr+HWqGqtanUW/At2W3BSIZ2HGJkAHJmK7pRRWpUY3YVgyAiCJB5BrOitMEOpdIsai34V60ly3iFYYEcR6fSpNBoLVhAlm2ltB+lFAH2puigDBgDg5BqDR6C1aBFq2lsEyQihZPvApjvWVABRRRQAUUUUAFFFFABRRRQB//2Q=="
+                            alt="product-image" class="w-100 mt-1 d-inline-block" /></a>
+
+                        <div class="clearfix"></div>
+                        <h2 class="mt-2">
+                          <a href="single-product-1.html" class="text-grey-700 fw-600 font-xsss lh-22 d-block ls-0">Üzüm toxum topu</a>
+                        </h2>
+                        <div class="cardFooter d-flex mt-5">
+                          <button class="addToCart pe-0">
+                            <h6 class="font-xss ls-3 mt-2 fw-700 text-current d-flex">
+                              1kq-9.99<span class="manat"> ₼ </span>
+                            </h6>
+                          </button>
+                          <button class="addToCart">
+                            <i class="ti-shopping-cart mx-1 font-xssss"></i><span class="font-xssssss">Əlavə et</span>
+                          </button>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="owl-items border rounded mx-2 my-2">
+                      <div class="col-lg-12 p-3 rounded-0 posr">
+                        <a href="#" class="wishlist-btn posa right-0 top-0 mt-3 me-3">
+                          <i class="bx bx-heart" id="addFavorite"></i></a>
+                        <div class="clearfix"></div>
+                        <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                          data-bs-target="#productmodal"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRI5zZeCSdi_U-_SgTDFkNBc0UeEjOdpiVJQ&usqp=CAU"
+                            alt="product-image" class="w-100 mt-1 d-inline-block" /></a>
+
+                        <div class="clearfix"></div>
+                        <h2 class="mt-2">
+                          <a href="single-product-1.html" class="text-grey-700 fw-600 font-xsss lh-22 d-block ls-0">Qarğıdalı toxum topu</a>
+                        </h2>
+                        <div class="cardFooter d-flex mt-5">
+                          <button class="addToCart pe-0">
+                            <h6 class="font-xss ls-3 mt-2 fw-700 text-current d-flex">
+                              1kq-0.99<span class="manat"> ₼ </span>
+                            </h6>
+                          </button>
+                          <button class="addToCart">
+                            <i class="ti-shopping-cart mx-1 font-xssss"></i><span class="font-xssssss">Əlavə et</span>
+                          </button>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="owl-items border rounded mx-2 my-2">
+                      <div class="col-lg-12 p-3 rounded-0 posr">
+                        <a href="#" class="wishlist-btn posa right-0 top-0 mt-3 me-3">
+                          <i class="bx bx-heart" id="addFavorite"></i></a>
+                        <div class="clearfix"></div>
+                        <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                          data-bs-target="#productmodal"><img src="	https://5.imimg.com/data5/BB/PF/MY-9799131/tomato-seeds-500x500.jpg"
+                            alt="product-image" class="w-100 mt-1 d-inline-block" /></a>
+
+                        <div class="clearfix"></div>
+                        <h2 class="mt-2">
+                          <a href="single-product-1.html" class="text-grey-700 fw-600 font-xsss lh-22 d-block ls-0">Pomidor toxum topu</a>
+                        </h2>
+                        <div class="cardFooter d-flex mt-5">
+                          <button class="addToCart pe-0">
+                            <h6 class="font-xss ls-3 mt-2 fw-700 text-current d-flex">
+                              1kq-5.99<span class="manat"> ₼ </span>
+                            </h6>
+                          </button>
+                          <button class="addToCart">
+                            <i class="ti-shopping-cart mx-1 font-xssss"></i><span class="font-xssssss">Əlavə et</span>
+                          </button>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="owl-items border rounded mx-2 my-2">
+                      <div class="col-lg-12 p-3 rounded-0 posr">
+                        <a href="#" class="wishlist-btn posa right-0 top-0 mt-3 me-3">
+                          <i class="bx bx-heart" id="addFavorite"></i></a>
+                        <div class="clearfix"></div>
+                        <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                          data-bs-target="#productmodal"><img src="https://via.placeholder.com/171x148.png"
+                            alt="product-image" class="w-100 mt-1 d-inline-block" /></a>
+
+                        <div class="clearfix"></div>
+                        <h2 class="mt-2">
+                          <a href="single-product-1.html" class="text-grey-700 fw-600 font-xsss lh-22 d-block ls-0">Tezliklə</a>
+                        </h2>
+                        <div class="cardFooter d-flex mt-5">
+                          <button class="addToCart pe-0">
+                            <h6 class="font-xss ls-3 mt-2 fw-700 text-current d-flex">
+                              ...<span class="manat"> ₼ </span>
+                            </h6>
+                          </button>
+                          <button class="addToCart">
+                            <i class="ti-shopping-cart mx-1 font-xssss"></i><span class="font-xssssss">Əlavə et</span>
+                          </button>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="owl-items border rounded mx-2 my-2">
+                      <div class="col-lg-12 p-3 rounded-0 posr">
+                        <a href="#" class="wishlist-btn posa right-0 top-0 mt-3 me-3">
+                          <i class="bx bx-heart" id="addFavorite"></i></a>
+                        <div class="clearfix"></div>
+                        <a href="#" class="d-block text-center p-2" data-bs-toggle="modal"
+                          data-bs-target="#productmodal"><img src="	https://bizimoradan.com/8298-home_default/bizim-yore-kirmizi-mercimek-1-kg.jpg
+                          "
+                            alt="product-image" class="w-100 mt-1 d-inline-block" /></a>
+
+                        <div class="clearfix"></div>
+                        <h2 class="mt-2">
+                          <a href="single-product-1.html" class="text-grey-700 fw-600 font-xsss lh-22 d-block ls-0">Qırmızı mərci toxum topu</a>
+                        </h2>
+                        <div class="cardFooter d-flex mt-5">
+                          <button class="addToCart pe-0">
+                            <h6 class="font-xss ls-3 mt-2 fw-700 text-current d-flex">
+                              1kq-4.99<span class="manat"> ₼ </span>
+                            </h6>
+                          </button>
+                          <button class="addToCart">
+                            <i class="ti-shopping-cart mx-1 font-xssss"></i><span class="font-xssssss">Əlavə et</span>
+                          </button>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
                 </div>
               </div>
+
+
+
+
             </div>
           </div>
         </div>
@@ -429,7 +591,7 @@
               <div class="row mb-3">
                 <div class="col-md-5 col-xs-5">
                   <a href="#" class="d-block text-center"><img src="https://via.placeholder.com/171x148.png"
-                      alt="product-image" class="w-100 d-inline-block pt-3 pb-3 bg-greylight rounded-6" /></a>
+                      alt="product-image" class="w-100 d-inline-block pt-3 pb-3 bg-greylight rounded-6 " /></a>
                 </div>
                 <div class="col-md-7 col-xs-7 ps-0">
 
@@ -481,8 +643,11 @@
 
 
 
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
   <script src="js/plugin.js"></script>
   <script src="js/scripts.js"></script>
+  <script src="js/index.js"></script>
+
 </body>
 
 </html>
