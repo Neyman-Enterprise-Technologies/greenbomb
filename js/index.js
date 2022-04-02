@@ -16,6 +16,14 @@ $(document).ready(function () {
     }
     check_width()
 
+
+
+    $('.btn-successs').on('click', function (){
+        order()
+    })
+
+
+
 });
 
 function check_width() {
@@ -29,3 +37,11 @@ function check_width() {
 
     }
 }
+
+function order(){
+
+        window.open('https://www.instagram.com/bduenactusteam/')
+    }
+
+
+
